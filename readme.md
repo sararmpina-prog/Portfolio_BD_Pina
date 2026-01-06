@@ -54,68 +54,7 @@ Considerei adicionar interatividade ao menu, mas acabei por não optra por essa 
 5. Perfil de redes (como linkedin) atualizados. O meu neste momento não se encontra ainda, contudo, criei um link de ligação ao mesmo (na última página do portfólio) como template. 
 
 
-Dúvidas:
-1. Página contactar - o <a> inclui a img
 
 
 
- <!-- <div aria-label="informação extra de rodapé" class="rodape">
-          <p>Imagens usadas exclusivamente para fins educativos, sem finalidade
-              comercial.</p>
-          <!-- <a
-              href="/html/contactoFormulario.html"
-              target="_blank"
-              class="sobreporElem"
-              >Contactar
-              <img src="/img/form/contactarExtra.png" alt="Contactar (abre numa nova aba)" height="60" class="imgExtrarodape"
-            ></a> -->
-        </div> -->
-
-
-
-        <p class="finsEducativos"> 
-              Imagens usadas exclusivamente para fins educativos, sem finalidade
-              comercial.
-            </p>
-
-
-
- <footer class="primPag">
-      <nav aria-label="Navegação entre páginas">
-        <ul class="listaNavegacaoRodape">
-           <li>
-            <a
-              href="/html/percursoEnf.html"
-              target="_blank"
-              class="sobreporElem"
-              >Percurso em Enfermagem<img
-                src="/img/comum/pagSeg.png"
-                alt="Percurso em Enfermagem (abre numa nova aba)"
-                height="60"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="/html/percursoEnf.html"
-              target="_blank"
-              class="sobreporElem"
-              >Percurso em Enfermagem<img
-                src="/img/comum/pagSeg.png"
-                alt="Percurso em Enfermagem (abre numa nova aba)"
-                height="60"
-            /></a>
-          </li>
-        </ul>
-      </nav>
-      <a
-        href="/html/contactoFormulario.html"
-        target="_blank"
-        class="sobreporElem"
-        >Contactar
-        <img
-          src="/img/form/contactarExtra.png"
-          alt="Contactar (abre numa nova aba)"
-          height="60"
-          class="imgExtrarodape"
-      /></a>
-    </footer>
+ 
