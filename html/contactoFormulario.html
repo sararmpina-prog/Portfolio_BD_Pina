@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura:wght@300;400;600;800&family=Italiana:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <script src="/JS/form.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacta-me</title>
+</head>
+
+<body>
+  <header>
+    <a href="/html/index.html" aria-label="Voltar ao menu principal">
+      <img src="/img/comum/menuPrincipal.webp" alt="Mafalda a brincar com planeta" title="Página Principal" width="100">
+    </a>
+    <a href="/html/index.html">Menu principal</a>
+  </header>
+  <main class="comic">
+    <section class="texto">
+      <h1>Contacta-me</h1>
+      <form id="oMeuForm">
+        <div>
+          <label for="texto">Nome</label>
+          <input type="text" id="texto" name="nome" required>
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto">
+            <option value="recrutamento">Recrutamento</option>
+            <option value="freelance">Freelance</option>
+            <option value="outro" selected>Outro</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="15" cols="25" required minlength="10"
+            placeholder="Escreve aqui a tua mensagem"></textarea>
+        </div>
+
+        <button type="submit">Submit 🚀</button>
+      </form>
+      <p id="feedback" aria-live="polite"></p>
+    </section>
+    <section class="gridcomic">
+      <div class="quadrado">
+        <a href="https://www.linkedin.com/in/sara-pina-002542285/" target="_blank">
+          <img src="/img/form/linkedin.png" alt="Mafalda: Segue-me no linkedin"></a>
+      </div>
+      <div class="quadrado">
+        <img src="/img/form/noticias.png" alt="Mafalda: Fico a aguardar o teu contacto" />
+      </div>
+      <div class="quadrado">
+        <img src="/img/form/tosim.png" alt="Mafalda ao telefone: Tô sim? É a própria, sim." />
+      </div>
+      <div class="quadrado">
+        <img src="/img/form/mondo.png" alt="Mafalda a olhar para o globo terrestre" />
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav aria-label="Navegação entre páginas">
+      <ul class="listaNavegacaoRodape">
+        <li>
+           <a href="/html/skillset.html" target="_blank" class="sobreporElem">Skill set<img src="/img/comum/testePagAnterior.png" alt="Formação actual (abre numa nova aba)" height="60"> </a>
+        </li>
+    </nav>
+  </footer>
+</body>
+</html>
