@@ -14,11 +14,11 @@ Abrir primeiramente index.html. Representa o menu de navegação para as restant
 
 Daqui pode-se fazer a selecção para as respetivas páginas.
 A ordem optimizada será seguir o menu de navegação:
-    * Sobre mim
-    * Percurso Profissional Enfermagem
-    * Percurso Profissional nos Estudos
-    * Skill Set
-    * Contacto
+    sobre mim,
+    percurso profissional enfermagem,
+    percurso profissional nos estudos,
+    skill set,
+    contacto; 
 
 Contudo existem secções independentes, e as únicas para as quais recomendo a leitura sequencial são: percurso profissional enfermagem seguida de percurso profissional nos estudos.
 
@@ -66,7 +66,7 @@ Qualquer destas secções abre em separador à parte, mantendo sempre a página 
 
 <img src="img/readme/acessibilidade_alt_menuPrincipal.png" width="500" height="400">
 
-    Contudo, considero que continua a ser uma experiência particularmente visual e, consequentemente, o detalhe na história/informação é mais limitado relativamente ao que pode ser transmitido através da narrativa. Assim, decidi incorporar um parágrafo descritivo, complementando os _comics_ em cada secção. 
+Contudo, considero que continua a ser uma experiência particularmente visual e, consequentemente, o detalhe na história/informação é mais limitado relativamente ao que pode ser transmitido através da narrativa. Assim, decidi incorporar um parágrafo descritivo, complementando os _comics_ em cada secção. 
 
 5. Interatividade
 
