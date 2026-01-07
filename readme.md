@@ -21,7 +21,7 @@ Usar Live Server na pasta do portfólio.
 Abrir (live server) primeiro ficheiro: index.html
 Representa o menu de navegação para as restantes páginas. 
 
-<img src="/img/readme/navegacaoMenuPrincipal.png" width="200" height="200">
+<img src="/img/readme/navegacaoMenuPrincipal.png" width="auto" height="200">
 
 Daqui pode-se fazer a selecção para as respetivas páginas.
 A ordem optimizada será seguir o menu de navegação:
