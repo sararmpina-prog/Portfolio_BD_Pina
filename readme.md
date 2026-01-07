@@ -50,7 +50,7 @@ Qualquer uma destas secções abre em separador à parte, mantendo sempre a pág
     Decidi usar CSS em vez de frameworks para me familiarizar mais com o mesmo e construir "manualmente".
 
     Os comic - imagens - foram colocados numa grid cuja responsividade foi pensada "mobile first" e assumem uma coluna só, expandindo para duas a partir de ecrãs maiores, nomeadamente 768px. 
-    Neste ponto, todo o main (parágrafo descritivo e grid de comics), que por sua vez representa outra grid,  passa a ocupar um total de 3 colunas.
+    Para ecrãs com 1024px ou maiores, todo o main (parágrafo descritivo e grid de comics), que por sua vez representa outra grid, passa a ocupar um total de 3 colunas.
 
     Explorei outras propriedades CSS para atribuir "o layout de banda desenhada", tentando uniformizar o tamanho das diferentes imagens.  
 
@@ -109,9 +109,39 @@ Qualquer uma destas secções abre em separador à parte, mantendo sempre a pág
     Boa leitura!
 
 
+Extras css:
+
+/* footer.primPag {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: flex-end;
+}
+
+footer.primPag div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px; 
+}
+
+footer.primPag p {
+    font-size: 12px;
+    color: #777; 
+} */
+
+/* footer img {
+    border: 1px solid #e5e5e5;  
+    box-shadow: 5px;
+    border-radius: 10px;
+    width: auto;
+
+} */
 
 
-
+.finsEducativos {
+    font-size: 6px;
+}
 
 
 
