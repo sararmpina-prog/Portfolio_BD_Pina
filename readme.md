@@ -10,7 +10,7 @@ Para aceder: Usar Live Server na pasta do portfólio.
 
 Abrir primeiramente index.html. Representa o menu de navegação para as restantes páginas. 
 
-<img src="/img/readme/navegacaoMenuPrincipal.png" width="600" height="500">
+<img src="/img/readme/navegacaoMenuPrincipal.png" width="600" height="300">
 
 Daqui pode-se fazer a selecção para as respetivas páginas.
 A ordem optimizada será seguir o menu de navegação:
