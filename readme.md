@@ -21,7 +21,7 @@ Usar Live Server na pasta do portfólio.
 Abrir (live server) primeiro ficheiro: index.html
 Representa o menu de navegação para as restantes páginas. 
 
-<img src="/img/readme/navegacaoMenuPrincipal.png" width="400" height="300">
+<img src="/img/readme/navegacaoMenuPrincipal.png" width="600" height="500">
 
 Daqui pode-se fazer a selecção para as respetivas páginas.
 A ordem optimizada será seguir o menu de navegação:
@@ -60,7 +60,7 @@ A banda desenhada que usei foi a da Mafalda. Importa reforçar que foi usada com
      (Seguem-se três exemplos abaixo).
 
 
-<img src="img/readme/acessibilidade_alt.png" width="800" height="600">
+<img src="img/readme/acessibilidade_alt.png" width="600" height="400">
 
 
 
@@ -75,7 +75,7 @@ A banda desenhada que usei foi a da Mafalda. Importa reforçar que foi usada com
     Optei por só aplicar JS na última página do portfólio (contacto), aquando da submissão do formulário.
     Apesar de ser apologista de criar mais momentos de interatividade com o utilizador no uso de interfaces pelo dinamismo considero que neste portfólio a sua aplicação essencial resume-se à validação da entrega. 
 
-    <img src="img/readme/formulario_confirmacao.png" width="400" height="350">
+    <img src="img/readme/formulario_confirmacao.png" width="500" height="400">
 
     Considerei ainda, adicionar interatividade ao menu, mas acabei por não optra por essa possibilidade porque não achei que fosse acrescentar acessibilidade ou acréscimo à página.
 
@@ -87,7 +87,7 @@ A banda desenhada que usei foi a da Mafalda. Importa reforçar que foi usada com
     Defini com um tamanho reduzido frente às referências/imagens paralelas (página anterior e página seguinte).
     A alteração ficou como representada:
 
-     <img src="img/readme/inclusao_contactos.png" width="600" height="500">
+     <img src="img/readme/inclusao_contactos.png" width="1030" height="900">
 
 
 
