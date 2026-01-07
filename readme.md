@@ -60,7 +60,7 @@ A banda desenhada que usei foi a da Mafalda. Importa reforçar que foi usada com
      (Seguem-se três exemplos abaixo).
 
 
-<img src="img/readme/acessibilidade_alt.png" width="400" height="300">
+<img src="img/readme/acessibilidade_alt.png" width="800" height="600">
 
 
 
@@ -75,7 +75,7 @@ A banda desenhada que usei foi a da Mafalda. Importa reforçar que foi usada com
     Optei por só aplicar JS na última página do portfólio (contacto), aquando da submissão do formulário.
     Apesar de ser apologista de criar mais momentos de interatividade com o utilizador no uso de interfaces pelo dinamismo considero que neste portfólio a sua aplicação essencial resume-se à validação da entrega. 
 
-    <img src="img/readme/formulario_confirmacao.png" width="400" height="300">
+    <img src="img/readme/formulario_confirmacao.png" width="400" height="350">
 
     Considerei ainda, adicionar interatividade ao menu, mas acabei por não optra por essa possibilidade porque não achei que fosse acrescentar acessibilidade ou acréscimo à página.
 
@@ -87,7 +87,7 @@ A banda desenhada que usei foi a da Mafalda. Importa reforçar que foi usada com
     Defini com um tamanho reduzido frente às referências/imagens paralelas (página anterior e página seguinte).
     A alteração ficou como representada:
 
-     <img src="img/readme/inclusao_contactos.png" width="400" height="300">
+     <img src="img/readme/inclusao_contactos.png" width="600" height="500">
 
 
 
