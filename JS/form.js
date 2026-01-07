@@ -10,7 +10,7 @@
       const nome = form.nome.value; 
       const feedback = document.getElementById("feedback");
 
-      feedback.textContent = "Mensagem enviada com sucesso! Obrigada pelo contacto " + nome + "😊";
+      feedback.textContent = "Mensagem enviada com sucesso! Obrigada pelo contacto " + nome + " 😊";
       feedback.className = "sucesso";
 
       form.reset();

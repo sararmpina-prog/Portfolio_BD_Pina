@@ -20,47 +20,43 @@ A ordem optimizada será seguir o menu de navegação:
     Skill Set
     Contacto
 
-Contudo existem secções independentes, e as únicas que recomendo a leitura sequencial são: Percurso Profissional Enfermagem seguida de Percurso Profissional nos Estudos.
+Contudo existem secções independentes, e as únicas para as quais recomendo a leitura sequencial são: Percurso Profissional Enfermagem seguida de Percurso Profissional nos Estudos.
 
-Dentro de qualquer secção, pode-se navegar para a página anterior; para a página seguinte; para o formulário de contacto (final) e/ou menu principal.
+Em qualquer secção, pode-se navegar para a página anterior; para a página seguinte; para o formulário de contacto (final) e para o menu principal.
 
-Qualquer uma destas secções abre em separador à parte, mantendo sempre a página principal (index.html/menu de navegação) disponível.
+Qualquer destas secções abre em separador à parte, mantendo sempre a página principal (index.html/menu de navegação) disponível.
 
 
 # Principais decisões tomadas e justificação da adequação
 
 1. Escolha do tema e tópicos
 
-    Decidi criar um portfólio profissional visto que foi o meu primeiro projeto com HTML e CSS. A ideia base que tive para este projeto foi como se tratasse da leitura de um livro, em concreto, de uma banda desenhada. 
+    Decidi criar um portfólio profissional visto que foi o meu primeiro projeto com HTML e CSS. A ideia base que tive para este projeto foi evocar a experiência da leitura de um livro, em concreto, de uma banda desenhada (BD). 
 
-    Decidi incluir tanto a componente profissional (experiência profissional anterior em enfermagem e requalificação profissional) como a componente pessoal. 
-    
-    Esta última, porque considero pertinente, num contexto de recrutamente haver uma área dedicada aos tanto aos interesses e hobbies como adicionalmente às soft skills.
+    Decidi incluir tanto a componente profissional (experiência profissional anterior em enfermagem e requalificação profissional) como a componente pessoal. Esta última, porque considero pertinente num contexto de recrutamento haver uma área dedicada tanto aos interesses e hobbies como adicionalmente às soft skills.
 
-    Usei a banda-desenhada da "Mafalda" que acaba por servir como uma template da concretização desta ideia. 
-
-    Em contexto que não académico, teria que realizar uma opção diferente devido aos direitos de autor.
+    Usei a banda-desenhada da "Mafalda", que acaba por funcionar como um template para a concretização desta ideia. Em contexto que não académico, teria que realizar uma opção diferente devido aos direitos de autor.
 
 2. Cariz académico > cariz profissional
 
-    A minha ideia foi realizar este portfólio em que quis colocar em prática a ideia ilustrativa de contar a história por meio de uma BD. Contudo, num contexto real, realizaria um portfólio com um cariz mais profissional. 
+    A minha ideia para a realização deste portfólio foi colocar em prática o conceito ilustrativo de contar a história por meio de uma BD. Contudo, num contexto real, faria as adaptações necessárias ao formato e conteúdos de forma a conferir ao portfolio um cariz mais profissional. 
 
 3. Uso de CSS > frameworks e Mobile First
 
-    Decidi usar CSS em vez de frameworks para me familiarizar mais com o mesmo e construir "manualmente".
+    Decidi usar CSS de base em vez de frameworks para me familiarizar mais com o mesmo e construir "manualmente" os estilos desejados.
 
-    Os comic - imagens - foram colocados numa grid cuja responsividade foi pensada "mobile first" e assumem uma coluna só, expandindo para duas a partir de ecrãs maiores, nomeadamente 768px. 
-    Para ecrãs com 1024px ou maiores, todo o main (parágrafo descritivo e grid de comics), que por sua vez representa outra grid, passa a ocupar um total de 3 colunas.
+    Os _comics_ - imagens - foram colocados numa grid cuja responsividade foi pensada na lógica "mobile first", assumindo inicialmente uma coluna única, e expandindo para duas colunas em ecrãs maiores, a partir de 768px. 
+    Para ecrãs com 1024px ou maiores, todo o _main_ (parágrafo descritivo e grid de comics), que por sua vez é disposto em outra grid, passa a ocupar um total de 3 colunas.
 
-    Explorei outras propriedades CSS para atribuir "o layout de banda desenhada", tentando uniformizar o tamanho das diferentes imagens.  
+    Explorei outras propriedades CSS para atribuir "o layout de banda desenhada", tentando uniformizar o espaço ocupado pelas diferentes imagens.  
 
-    Para ajudar à uniformização usei propriedades como aspect ratio, overflow e object fit. Neste último, optei por usar a atribuição de "contain" por manter melhor qualidade de imagem sem perda de conteúdo visual.
+    Para ajudar à uniformização usei propriedades como `aspect-ratio`, `overflow` e `object-fit`. Neste último, optei por usar a atribuição de "contain" por manter melhor qualidade de imagem sem perda de conteúdo visual.
 
 
-3. Inclusão de um parágrafo complementar por secção de banda-desenhada devido à acessibilidade.
+4. Inclusão de um parágrafo complementar por secção de banda desenhada devido à acessibilidade.
 
      Fiz as seguintes validações para garantir a acessibilidade do site: 
-      - Uso correcto da estrutura html semântica;
+      - Uso correcto da estrutura html semântica, e utilização de atributos _aria_ sempre que adequado
 
       - Atributo alt corretamente usado nas imagens (identificação da legenda aplicada), representação descritiva da imagem e/ou da sua utilização.
      (Seguem-se três exemplos abaixo).
@@ -68,80 +64,41 @@ Qualquer uma destas secções abre em separador à parte, mantendo sempre a pág
 
 <img src="img/readme/acessibilidade_alt.png" width="600" height="400">
 
-
-
-
 <img src="img/readme/acessibilidade_alt_menuPrincipal.png" width="500" height="400">
 
-    Contudo, considero que continua a ser uma experiência particularmente visual e, adicionalmente, mais incompleta da história/informação que posso transmitir através de escrita.
-    Assim, acabei por decidir incorporar um parágrafo descritivo, respetivamente, em cada uma das secções. 
+    Contudo, considero que continua a ser uma experiência particularmente visual e, consequentemente, o detalhe na história/informação é mais limitado relativamente ao que pode ser transmitido através da narrativa. Assim, decidi incorporar um parágrafo descritivo, complementando os _comics_ em cada secção. 
 
-2. Interatividade
+5. Interatividade
 
     Optei por só aplicar JS na última página do portfólio (contacto), aquando da submissão do formulário.
     Apesar de ser apologista de criar mais momentos de interatividade com o utilizador no uso de interfaces pelo dinamismo gerado, considero que neste portfólio a sua aplicação essencial resume-se à validação da entrega. 
 
     <img src="img/readme/formulario_confirmacao.png" width="1030" height="900">
 
-    De facto, considerei inclusive adicionar interatividade ao menu de navegação (index.html), mas considero que não iria trazer vantagem na experiência e até acessibilidade dessa página. 
+    De facto, considerei inclusive adicionar mais interatividade ao menu de navegação (index.html), mas considero que não iria trazer vantagem na experiência e até acessibilidade dessa página. Assim, optei por aplicar apenas um destaque na cor da opção selecionada em _hover_, acompanhada por uma animação discreta do texto, ambos com o intuito de favorecer a usabilidade da página.
 
 
-3. Inclusão da referência para a página final (contacto) em todas as páginas
+6. Inclusão da referência para a página final (contacto) em todas as páginas
 
     Após a apresentação do portfólio, segui a sugestão de incorporação da referência para a página final (contacto) em todas as secções.
-    Decidi manter essa referência alinhada com a estrutura visual da página incluida no menu de navegação do rodapé das páginas.
-    Defini com um tamanho reduzido frente às referências/imagens paralelas (página anterior e página seguinte).
+    Decidi manter essa referência alinhada com a estrutura visual da página incluída no menu de navegação do rodapé das páginas.
+    Defini com um tamanho reduzido face aos elementos de interface próximos (página anterior e página seguinte), de forma a não prejudicar a usabilidade das páginas, evitando o ruído visual e eventual dificuldade na navegação pelas seções.
+
     A alteração ficou como representada:
 
      <img src="img/readme/inclusao_contactos.png" width="200" height="200">
 
 
 
- 4. Rodapé incluido na página principal/menu de navegação com mensagem
+ 7. Rodapé incluído na página principal/menu de navegação com mensagem
 
-    Optei por colocar a mensagem "Imagens usadas exclusivamente para fins educativos, sem finalidade comercial." no rodapé da página principal. 
-    Inicialmente, encontrava-se na secção "sobre mim", no rodapé.
+    Optei por colocar a mensagem "Imagens da personagem Mafalda © Quino — uso exclusivo para fins educativos, sem finalidade comercial" no rodapé da página principal. Inicialmente, a mensagem era visível apenas na secção "sobre mim", no rodapé.
 
-    A alteração descrita acima (ponto 3) causou ligeiras alterações no rodapé das páginas e adicionalmente, considerei que esta informação deveria estar descrita na primeira página antes de aceder a qualquer uma das outras, como melhor protecção da privacidade dos direitos de autor. 
+    A alteração descrita acima (ponto 6) causou ligeiras alterações no rodapé das páginas, e adicionalmente, considerei que esta informação deveria estar expressa na primeira página antes de aceder a qualquer uma das outras, para maior visibilidade e melhor proteção dos direitos de autor. 
 
 
 
     Boa leitura!
-
-
-Extras css:
-
-/* footer.primPag {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: flex-end;
-}
-
-footer.primPag div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px; 
-}
-
-footer.primPag p {
-    font-size: 12px;
-    color: #777; 
-} */
-
-/* footer img {
-    border: 1px solid #e5e5e5;  
-    box-shadow: 5px;
-    border-radius: 10px;
-    width: auto;
-
-} */
-
-
-.finsEducativos {
-    font-size: 6px;
-}
 
 
 
