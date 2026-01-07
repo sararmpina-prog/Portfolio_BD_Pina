@@ -10,7 +10,7 @@ Para aceder: Usar Live Server na pasta do portfólio.
 
 Abrir primeiramente index.html. Representa o menu de navegação para as restantes páginas. 
 
-<img src="/img/readme/navegacaoMenuPrincipal.png" width="200" height="200">
+<img src="/img/readme/navegacaoMenuPrincipal.png" width="600" height="500">
 
 Daqui pode-se fazer a selecção para as respetivas páginas.
 A ordem optimizada será seguir o menu de navegação:
@@ -86,7 +86,7 @@ Qualquer destas secções abre em separador à parte, mantendo sempre a página 
 
     A alteração ficou como representada:
 
-     <img src="img/readme/inclusao_contactos.png" width="200" height="200">
+     <img src="img/readme/inclusao_contactos.png" width="1030" height="900">
 
 
 
@@ -99,7 +99,6 @@ Qualquer destas secções abre em separador à parte, mantendo sempre a página 
 
 
     Boa leitura!
-
 
 
 
