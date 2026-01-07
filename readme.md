@@ -14,13 +14,13 @@ Abrir primeiramente index.html. Representa o menu de navegação para as restant
 
 Daqui pode-se fazer a selecção para as respetivas páginas.
 A ordem optimizada será seguir o menu de navegação:
-    Sobre mim
-    Percurso Profissional Enfermagem
-    Percurso Profissional nos Estudos
-    Skill Set
-    Contacto
+    * Sobre mim
+    * Percurso Profissional Enfermagem
+    * Percurso Profissional nos Estudos
+    * Skill Set
+    * Contacto
 
-Contudo existem secções independentes, e as únicas para as quais recomendo a leitura sequencial são: Percurso Profissional Enfermagem seguida de Percurso Profissional nos Estudos.
+Contudo existem secções independentes, e as únicas para as quais recomendo a leitura sequencial são: percurso profissional enfermagem seguida de percurso profissional nos estudos.
 
 Em qualquer secção, pode-se navegar para a página anterior; para a página seguinte; para o formulário de contacto (final) e para o menu principal.
 
@@ -35,11 +35,11 @@ Qualquer destas secções abre em separador à parte, mantendo sempre a página 
 
     Decidi incluir tanto a componente profissional (experiência profissional anterior em enfermagem e requalificação profissional) como a componente pessoal. Esta última, porque considero pertinente num contexto de recrutamento haver uma área dedicada tanto aos interesses e hobbies como adicionalmente às soft skills.
 
-    Usei a banda-desenhada da "Mafalda", que acaba por funcionar como um template para a concretização desta ideia. Em contexto que não académico, teria que realizar uma opção diferente devido aos direitos de autor.
+    Usei a banda desenhada da "Mafalda", que acaba por funcionar como um template para a concretização desta ideia. Em contexto que não académico, teria que realizar uma opção diferente devido aos direitos de autor.
 
 2. Cariz académico > cariz profissional
 
-    A minha ideia para a realização deste portfólio foi colocar em prática o conceito ilustrativo de contar a história por meio de uma BD. Contudo, num contexto real, faria as adaptações necessárias ao formato e conteúdos de forma a conferir ao portfolio um cariz mais profissional. 
+    A minha ideia para a realização deste portfólio foi colocar em prática o conceito ilustrativo de contar a história por meio de uma BD. Contudo, num contexto real, faria as adaptações necessárias ao formato e conteúdos de forma a conferir ao portfólio um cariz mais profissional. 
 
 3. Uso de CSS > frameworks e Mobile First
 
