@@ -73,7 +73,7 @@ Qualquer destas secções abre em separador à parte, mantendo sempre a página 
     Optei por só aplicar JS na última página do portfólio (contacto), aquando da submissão do formulário.
     Apesar de ser apologista de criar mais momentos de interatividade com o utilizador no uso de interfaces pelo dinamismo gerado, considero que neste portfólio a sua aplicação essencial resume-se à validação da entrega. 
 
-    <img src="img/readme/formulario_confirmacao.png" width="1030" height="900">
+    <img src="img/readme/formulario_confirmacao.png" width="600" height="400">
 
     De facto, considerei inclusive adicionar mais interatividade ao menu de navegação (index.html), mas considero que não iria trazer vantagem na experiência e até acessibilidade dessa página. Assim, optei por aplicar apenas um destaque na cor da opção selecionada em _hover_, acompanhada por uma animação discreta do texto, ambos com o intuito de favorecer a usabilidade da página.
 
@@ -86,7 +86,7 @@ Qualquer destas secções abre em separador à parte, mantendo sempre a página 
 
     A alteração ficou como representada:
 
-     <img src="img/readme/inclusao_contactos.png" width="1030" height="900">
+     <img src="img/readme/inclusao_contactos.png" width="1060" height="900">
 
 
 
